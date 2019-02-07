@@ -1,0 +1,34 @@
+Body{
+  background: black;
+  color: white;
+  font-family: cursive;
+}
+#titleHeader{
+  text-align: center;
+  font-family: fantasy;
+  font-size: 45px;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+background-image:url("https://imgur.com/DX6CcUt.jpg");
+background-size: cover;
+height: 500px;
+justify-content: center;
+}
+a{
+  font-size: 20px;
+  color: white;
+ }
+ span {
+  font-size: 19px;
+  letter-spacing: 3px;
+  opacity: 0;
+}
+  span:hover{
+  opacity: 1;
+}
