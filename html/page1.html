@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Page 1</title>
-    <script src="js/main.js" charset="utf-8"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    <script src="/Users/macuser/Desktop/Code/storyGamev2/js/main.js" charset="utf-8"></script>
+    <script defer src="https://code.jquery.com/jquery-3.2.1.min.js"
  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
  	crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/Users/macuser/Desktop/Code/storyGamev2/style/style.css">
@@ -12,8 +12,8 @@
   <body>
     <header> Page 1</header>
     <div class="">
-      <div class="pg1Input"> Before we begin, might I have your name? Would be a shame if no one remembered.
-        Enter Name: <input type="text">
+      <div id="pg1InputTxt"> Before we begin, might I have your name? Would be a shame if no one remembered.
+        Enter Name: <input id="pg1Input"type="text">
         <button id="pg1Button"> click </button>
       <section id="pg1Section">
         <br>
@@ -24,8 +24,20 @@
         Upon approaching his destination, Vega considers his objective
       </section>
     </div>
-    <a href="/Users/macuser/Desktop/Code/storyGamev2/html/page2.html">Consider Objective</a>
-    <a href="/Users/macuser/Desktop/Code/storyGamev2/html/page3.html">•	“I already know all I need to know”</a>
+    <div id="pg1Choice">
 
+        <div id="CB1">
+          <img id= "img1" src="https://imgur.com/g2pV0MS.jpg" alt="">
+          <span id="MB1">
+            <a id="A1" href="/Users/macuser/Desktop/Code/storyGamev2/html/page2.html">Consider Objective</a>
+          </div>
+        </div>
+        <div id="CB2">
+          <img id="img2" src="https://imgur.com/pAdZlTB.jpg" alt="">
+          <div id="MB2">
+            <a id="A2"href="/Users/macuser/Desktop/Code/storyGamev2/html/page3.html">“I already know all I need to know”</a>
+          </div>
+        </div>
+    </div>
   </body>
 </html>
