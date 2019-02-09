@@ -1,0 +1,3 @@
+- Darker than Black V2 is a text based "chose your own adventure game"
+- built from HTML and CSS the user is prompted to enter their name and then press start to begin
+- The user will then be prompted to read through the dialogue than select a choice that will decide the story path.

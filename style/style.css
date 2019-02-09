@@ -43,6 +43,7 @@ a{
   display: inline-block;
   /* justify-content: center; */
   height: 200px;
+  float: left;
   ;
 
 }
@@ -72,6 +73,7 @@ a{
   backface-visibility: hidden;
 }
 #img2{
+  float: right;
   opacity: 1;
   display: block;
   width: 50%;
@@ -80,6 +82,7 @@ a{
   backface-visibility: hidden;
 }
 #CB1{
+  display: block;
   position: relative;
   width: 50%;
 }
